@@ -97,7 +97,7 @@ The library does not know what a "valid" key is. You must provide the validation
 
 Here is a complete example of setting up the library with the key system.
 
-    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/barbarianTopG/Orion-Fork/refs/heads/main/source"))()
 
     -- Step 1: Define your validation function.
     -- The user's input from the key box will be passed as the 'key' argument.
